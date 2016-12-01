@@ -18,7 +18,8 @@ p {
     background: url(img/simcity.jpg) no-repeat center center fixed;
 }
 .exploded {
-    background: url(img/explosion.jpg) no-repeat center center fixed;
+    background: url(img/explosion.jpg);
+    background-size: cover;
 }
 
 .timer {

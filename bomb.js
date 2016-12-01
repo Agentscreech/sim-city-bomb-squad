@@ -54,7 +54,8 @@ function detonate() {
     clearInterval(timerStart);
     var boom = document.getElementById('toPlay');
     boom.setAttribute('src' ,"sounds/BldgExplode.wav");
-    document.getElementById('background').style.background = "url(img/explosion.jpg) no-repeat center center fixed";
+    document.getElementById('background').className = "exploded";
+    // document.getElementById('background').style.background = "url(img/explosion.jpg) no-repeat center center fixed";
     document.getElementById('unhide').style.visibility = "visible";
 }
 
