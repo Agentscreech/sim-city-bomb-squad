@@ -14,7 +14,7 @@ function drawWire(color) {
     console.log("drawWire running");
     wire = document.createElement("img");
     wire.setAttribute('id', color);
-    wire.addEventListener('click', cut); // change this function to cut detection
+    wire.addEventListener('click', cut); 
     if (color == "blue") {
         wire.setAttribute('src', "img/uncut-blue-wire.png");
     } else if (color == "green") {
