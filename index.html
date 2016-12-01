@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Sim City Bomb Squad</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
-    <script src="bomb.js"></script>
-  </head>
-  <body class="unexploded">
-  </body>
+</head>
+
+<body id="background" class="unexploded">
+    <div id="container">
+        <div class="timer">
+            <p>0:00:<span id="clock"></span></p>
+          <div id="wiresDisplay">
+
+          </div>
+        </div>
+    </div>
+</body>
+
+<script src="bomb.js"></script>
 </html>

@@ -1,0 +1,40 @@
+@font-face {
+    font-family: DS-DIGI;
+    src: url(DS-DIGI.ttf);
+}
+#container {
+    width: 100%;
+    position: relative;
+    height: 100px;
+
+}
+p {
+    color: red;
+    padding: 8px;
+    font-family: DS-DIGI;
+    font-size: 24pt;
+}
+.unexploded {
+    background: url(img/simcity.jpg) no-repeat center center fixed;
+}
+.exploded {
+    background: url(img/explosion.jpg) no-repeat center center fixed;
+}
+
+.timer {
+    background-color: black;
+    width: 250px;
+    height: 400px;
+    margin: 15% auto;
+    position: relative;
+    text-align: center;
+
+}
+#wiresDisplay {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+#wiresDisplay img {
+    margin: 2px;
+}
