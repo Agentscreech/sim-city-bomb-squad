@@ -14,7 +14,7 @@ function drawWire(color) {
     console.log("drawWire running");
     wire = document.createElement("img");
     wire.setAttribute('id', color);
-    wire.addEventListener('click', cut); 
+    wire.addEventListener('click', cut);
     if (color == "blue") {
         wire.setAttribute('src', "img/uncut-blue-wire.png");
     } else if (color == "green") {
@@ -52,6 +52,9 @@ function swapWire(cutWire) {
 function detonate() {
   console.log("Detonating");
     clearInterval(timerStart);
+    for (var i = 0; i < wires.length; i++){
+      document.getElementById(wires[i]).removeEventListener('click', cut);
+    }
     var boom = document.getElementById('toPlay');
     boom.setAttribute('src' ,"sounds/BldgExplode.wav");
     document.getElementById('background').className = "exploded";
@@ -88,4 +91,8 @@ function cut() {
 
 function reset() {
   window.location.reload();
+}
+
+function removeClick (){
+
 }
