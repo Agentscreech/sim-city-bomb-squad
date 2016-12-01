@@ -89,7 +89,3 @@ function cut() {
 function reset() {
   window.location.reload();
 }
-// function play() {
-//     var audio = document.getElementById('sound');
-//         audio.play();
-// }
