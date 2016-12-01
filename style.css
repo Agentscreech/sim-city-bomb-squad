@@ -38,3 +38,15 @@ p {
 #wiresDisplay img {
     margin: 2px;
 }
+.reset {
+    position: absolute;
+    bottom: 45px;
+    left: 14px;
+    width: 220px;
+    background-color: grey;
+}
+.reset input {
+    visibility: hidden;
+    height: 30px;
+    width: 220px;
+}
