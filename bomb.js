@@ -92,7 +92,3 @@ function cut() {
 function reset() {
   window.location.reload();
 }
-
-function removeClick (){
-
-}
