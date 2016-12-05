@@ -1,5 +1,5 @@
 @font-face {
-    font-family: DS-DIGI;
+    font-family: "DS-DIGI";
     src: url(DS-DIGI.ttf);
 }
 #container {
@@ -11,7 +11,7 @@
 p {
     color: red;
     padding: 8px;
-    font-family: DS-DIGI;
+    font-family: "DS-DIGI";
     font-size: 24pt;
 }
 .unexploded {
